@@ -98,7 +98,6 @@ public class AtaccamaWebUi extends AtaccamaCalculatorBase {
     public void subtractionOp(String Value1, String Value2, String Result) throws InterruptedException {
 
         launchApplication();
-        System.out.println("Value of driver:"+driver);
         setValue1(Value1);
         setValue2(Value2);
         setOperation("Subtraction");
